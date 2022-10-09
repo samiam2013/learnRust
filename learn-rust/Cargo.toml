@@ -1,0 +1,20 @@
+[package]
+name = "learn-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "hello-world"
+path = "src/1-elementary/1-hello-world.rs"
+
+[[bin]]
+name = "greet-name"
+path = "src/1-elementary/2-greet-name.rs"
+
+[[bin]]
+name = "greet-bob"
+path = "src/1-elementary/3-greet-bob.rs"
