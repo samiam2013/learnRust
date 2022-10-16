@@ -11,7 +11,7 @@ fn main() {
     println!("converted number: {:?}", num_int);
     let mut sum: i64 = 0;
     for i in 1..num_int {
-        if i == 3 || i == 5 {
+        if i % 3 == 0 || i % 5 == 0 {
             sum += i;
         }
     }
