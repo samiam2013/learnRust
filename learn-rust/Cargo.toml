@@ -18,3 +18,11 @@ path = "src/1-elementary/2-greet-name.rs"
 [[bin]]
 name = "greet-bob"
 path = "src/1-elementary/3-greet-bob.rs"
+
+[[bin]]
+name = "sum-series"
+path = "src/1-elementary/4-sum-series.rs"
+
+[[bin]]
+name = "fizzbuzz-triangle"
+path = "src/1-elementary/5-fizzbuzz-triangle.rs"
