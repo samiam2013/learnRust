@@ -5,8 +5,6 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
-
 [[bin]]
 name = "hello-world"
 path = "src/1-elementary/1-hello-world.rs"
@@ -30,4 +28,8 @@ path = "src/1-elementary/5-fizzbuzz-triangle.rs"
 [[bin]]
 name = "sum-or-prod-series"
 path = "src/1-elementary/6-sum-or-prod-series.rs"
+
+[[bin]]
+name = "mult-table"
+path = "src/1-elementary/7-mult-table.rs"
 
