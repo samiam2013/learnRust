@@ -1,5 +1,5 @@
 [package]
-name = "learn-rust"
+name = "learnRust"
 version = "0.1.0"
 edition = "2021"
 
@@ -26,3 +26,8 @@ path = "src/1-elementary/4-sum-series.rs"
 [[bin]]
 name = "fizzbuzz-triangle"
 path = "src/1-elementary/5-fizzbuzz-triangle.rs"
+
+[[bin]]
+name = "sum-or-prod-series"
+path = "src/1-elementary/6-sum-or-prod-series.rs"
+
