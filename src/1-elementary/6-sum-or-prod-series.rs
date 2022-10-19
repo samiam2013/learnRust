@@ -19,7 +19,6 @@ fn main() {
     stdin().read_line(&mut n_strval).unwrap();
     n_strval.truncate(n_strval.trim().len());
     let n_val = n_strval.parse::<i64>().unwrap();
-    // TODO replace with pattern match?
     match select_char {
         'p' => println!("product: {:?}", product(n_val)),
         's' => println!("product: {:?}", triangle(n_val)),
