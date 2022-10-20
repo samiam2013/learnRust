@@ -33,3 +33,16 @@ path = "src/1-elementary/6-sum-or-prod-series.rs"
 name = "mult-table"
 path = "src/1-elementary/7-mult-table.rs"
 
+[[bin]]
+name = "prime-seive"
+path = "src/1-elementary/8-prime-seive.rs"
+
+[[bin]]
+name = "guessing-game"
+path = "src/1-elementary/9-guessing-game.rs"
+
+[dependencies]
+rand = "0.8.5"
+rand_pcg = "0.3.1"
+
+
