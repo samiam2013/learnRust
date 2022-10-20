@@ -10,12 +10,12 @@ use std::io::{self, Write};
 use rand_pcg::Pcg32;
 use rand::{Rng, SeedableRng};
 use std::collections::HashSet;
-
+use std::time::SystemTime;
 
 fn main() {
     println!("Welcome to the guessing game. Pick a number 1-100");
-    // todo seed here
-    let mut rng = Pcg32::seed_from_u64(42);  
+    let epoch = SystemTime::now().duration_since(SystemTime::UNIX_EPOCH).unwrap().as_secs();
+    let mut rng = Pcg32::seed_from_u64(epoch);  
     let random_number: u32 = rng.gen_range(1..100);
     let mut guesses = HashSet::new();
     loop {
