@@ -5,17 +5,20 @@
     be printed. It counts only as one try if they input the same number
     multiple times consecutively.
 */
+use rand::{Rng, SeedableRng};
+use rand_pcg::Pcg32;
+use std::collections::HashSet;
 use std::io::stdin;
 use std::io::{self, Write};
-use rand_pcg::Pcg32;
-use rand::{Rng, SeedableRng};
-use std::collections::HashSet;
 use std::time::SystemTime;
 
 fn main() {
     println!("Welcome to the guessing game. Pick a number 1-100");
-    let epoch = SystemTime::now().duration_since(SystemTime::UNIX_EPOCH).unwrap().as_secs();
-    let mut rng = Pcg32::seed_from_u64(epoch);  
+    let epoch = SystemTime::now()
+        .duration_since(SystemTime::UNIX_EPOCH)
+        .unwrap()
+        .as_secs();
+    let mut rng = Pcg32::seed_from_u64(epoch);
     let random_number: u32 = rng.gen_range(1..100);
     let mut guesses = HashSet::new();
     loop {
@@ -29,12 +32,11 @@ fn main() {
         guesses.insert(guess_n);
         if guess_n == random_number {
             break;
-        } else if guess_n > random_number{
+        } else if guess_n > random_number {
             println!("number too high. try again.");
         } else {
             println!("number was too low. try again");
         }
     }
     println!("Correct! number of guesses: {:}", guesses.len());
-    
 }

@@ -3,7 +3,7 @@
 use std::io::stdin;
 
 fn main() {
-    // variable for user input 
+    // variable for user input
     let mut input = String::new();
     println!("What is your name?: ");
     let _ = stdin().read_line(&mut input).unwrap();

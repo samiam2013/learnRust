@@ -5,11 +5,11 @@ fn main() {
     let mut prod_or_sum = String::new();
     print!("do you want a [P]roduct or [S]um?: ");
     io::stdout().flush().unwrap();
-    stdin().read_line(&mut prod_or_sum).unwrap();                         
+    stdin().read_line(&mut prod_or_sum).unwrap();
     prod_or_sum.truncate(prod_or_sum.trim().len());
-    let select_char =prod_or_sum.to_lowercase().chars().nth(0).unwrap();
+    let select_char = prod_or_sum.to_lowercase().chars().nth(0).unwrap();
     if select_char != 'p' && select_char != 's' {
-        println!("some prod_or_sum: {:?}", select_char );
+        println!("some prod_or_sum: {:?}", select_char);
         panic!("product or sum selection unparsable");
     }
     // ask for the nth element 1..n
@@ -35,6 +35,6 @@ fn product(n: i64) -> i64 {
 }
 
 fn triangle(n: i64) -> i64 {
-    let sum = (n*(n+1))/2;
+    let sum = (n * (n + 1)) / 2;
     sum
 }
