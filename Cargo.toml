@@ -41,7 +41,25 @@ path = "src/1-elementary/8-prime-seive.rs"
 name = "guessing-game"
 path = "src/1-elementary/9-guessing-game.rs"
 
+[[bin]]
+name = "next-twenty-ly"
+path = "src/1-elementary/10-next-twenty-ly.rs"
+
+[[bin]]
+name = "alternating-series"
+path = "src/1-elementary/11-alternating-series.rs"
+
+[[bin]]
+name = "nine-digit-equations"
+path = "src/2-intermediate/1-nine-digit-equations.rs"
+
+
+
 [dependencies]
+bigdecimal = "0.3.0"
+chrono = "0.4.22"
+eval = "0.4.3"
+num = "0.4.0"
 rand = "0.8.5"
 rand_pcg = "0.3.1"
 
