@@ -18,6 +18,5 @@ fn dfs(n: i32, op: &str, s: &str) {
         return;
     }
     dfs(n + 1, "+", &format!("{:}{:}{:}", s, op, n + 1));
-    dfs(n + 1, "-", &format!("{:}{:}{:}", s, op, n + 1));
     dfs(n + 1, "", &format!("{:}{:}{:}", s, op, n + 1));
 }

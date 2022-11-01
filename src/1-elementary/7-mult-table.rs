@@ -4,7 +4,6 @@ fn main() {
             let prod: i64 = x * y;
             print!(" {:>3}", prod);
         }
-        println!()
     }
 }
 
