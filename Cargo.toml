@@ -53,6 +53,11 @@ path = "src/1-elementary/11-alternating-series.rs"
 name = "nine-digit-equations"
 path = "src/2-intermediate/1-nine-digit-equations.rs"
 
+[[bin]]
+name = "compute-leaps"
+path = "src/2-intermediate/2-compute-leaps.rs"
+
+
 
 
 [dependencies]
