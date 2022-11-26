@@ -1,5 +1,12 @@
+/*
+3. Implement a data structure for graphs that allows modification (insertion, deletion). 
+. It should be possible to store values at edges and nodes. 
+. It might be easiest to use a dictionary of (node, edgelist) to do this.
+*/
+
 use std::sync::{Arc, Mutex};
 
+#[derive(Debug)]
 struct Graph<'a, T> {
     root: &'a Arc<Mutex<Node<'a, T>>>,
 }
@@ -37,5 +44,6 @@ fn main() {
         edges: Vec::new(),
     }));
     let g: Graph<String> = Graph { root: &n };
-    add_node(g, "edge_val".to_string(), &n);
+    let g_new = add_node(g, "edge_val".to_string(), &n);
+    println!("Graph: {:?}", g_new);
 }
