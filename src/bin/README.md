@@ -1,1 +1,0 @@
-if the Cargo.toml did not have paths defined for the binaries this is where cargo would expect to find them. This folder has been left in place for posterity. 
