@@ -1,9 +1,7 @@
 /* 2. Write a function that returns the largest element in a list. */
 
-fn main() { 
-    let list: Vec<String> = [
-        "item1".to_string(), 
-        "longest item".to_string()].to_vec();
+fn main() {
+    let list: Vec<String> = ["item1".to_string(), "longest item".to_string()].to_vec();
     let longest = find_longest(list);
     println!("longest item: {:}", longest)
 }
