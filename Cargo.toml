@@ -77,6 +77,10 @@ path = "src/bin/2-lists-and-strings/4-in-list.rs"
 name = "odd-positions"
 path = "src/bin/2-lists-and-strings/5-odd-positions.rs"
 
+[[bin]]
+name = "running-total"
+path = "src/bin/2-lists-and-strings/6-running-total.rs"
+
 
 
 [dependencies]
