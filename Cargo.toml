@@ -69,6 +69,10 @@ path = "src/bin/2-lists-and-strings/2-largest-element.rs"
 name = "reverse-list" 
 path = "src/bin/2-lists-and-strings/3-reverse-list.rs"
 
+[[bin]]
+name = "in-list"
+path = "src/bin/2-lists-and-strings/4-in-list.rs"
+
 
 
 [dependencies]
