@@ -68,10 +68,14 @@ path = "src/bin/2-lists-and-strings/2-largest-element.rs"
 [[bin]]
 name = "reverse-list" 
 path = "src/bin/2-lists-and-strings/3-reverse-list.rs"
-
+ 
 [[bin]]
 name = "in-list"
 path = "src/bin/2-lists-and-strings/4-in-list.rs"
+
+[[bin]]
+name = "odd-positions"
+path = "src/bin/2-lists-and-strings/5-odd-positions.rs"
 
 
 
