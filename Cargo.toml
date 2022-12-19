@@ -97,6 +97,22 @@ path = "src/bin/2-lists-and-strings/9-map-perfect-squares.rs"
 name = "concatenate-lists"
 path = "src/bin/2-lists-and-strings/10-concatenate-lists.rs"
 
+[[bin]]
+name = "coallate-lists"
+path = "src/bin/2-lists-and-strings/11-coallate-lists.rs"
+
+[[bin]]
+name = "merge-sorted"
+path = "src/bin/2-lists-and-strings/12-merge-sorted.rs"
+
+[[bin]]
+name = "rotate-list"
+path = "src/bin/2-lists-and-strings/13-rotate-list.rs"
+
+[[bin]]
+name = "fibonacci-sequence"
+path = "src/bin/2-lists-and-strings/14-fibonacci-seq.rs"
+
 
 
 [dependencies]
@@ -104,6 +120,8 @@ bigdecimal = "0.3.0"
 chrono = "0.4.22"
 eval = "0.4.3"
 num = "0.4.0"
+num-bigint = "0.4.3"
+num-traits = "0.2.15"
 rand = "0.8.5"
 rand_pcg = "0.3.1"
 
