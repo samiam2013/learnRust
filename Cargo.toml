@@ -85,6 +85,10 @@ path = "src/bin/2-lists-and-strings/6-running-total.rs"
 name = "check-palindrome"
 path = "src/bin/2-lists-and-strings/7-check-palindrome.rs"
 
+[[bin]]
+name = "sum-versions"
+path = "src/bin/2-lists-and-strings/8-sum-versions.rs"
+
 
 
 [dependencies]
