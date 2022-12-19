@@ -89,6 +89,14 @@ path = "src/bin/2-lists-and-strings/7-check-palindrome.rs"
 name = "sum-versions"
 path = "src/bin/2-lists-and-strings/8-sum-versions.rs"
 
+[[bin]]
+name = "map-perfect-squares"
+path = "src/bin/2-lists-and-strings/9-map-perfect-squares.rs"
+
+[[bin]]
+name = "concatenate-lists"
+path = "src/bin/2-lists-and-strings/10-concatenate-lists.rs"
+
 
 
 [dependencies]
