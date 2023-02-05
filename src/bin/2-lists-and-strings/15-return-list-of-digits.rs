@@ -1,8 +1,6 @@
 // 15. Write a function that takes a number and returns a list of its digits. 
 //  So for 2342 it should return [2,3,4,2].
 
-
-
 fn main() {
     let mut num = 42069;
 	let mut list = Vec::<i64>::new(); 
