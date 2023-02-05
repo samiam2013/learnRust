@@ -22,10 +22,9 @@
 18. Implement the following sorting algorithms: Selection sort, Insertion sort, Merge sort, Quick sort, Stooge Sort. Check Wikipedia for descriptions.
 Implement binary search.
 19. Write a function that takes a list of strings an prints them, one per line, in a rectangular frame.
-
 For example the list ["Hello", "World", "in", "a", "frame"] gets printed as:
 
-```
+```text
 *********
 * Hello *
 * World *

@@ -113,6 +113,10 @@ path = "src/bin/2-lists-and-strings/13-rotate-list.rs"
 name = "fibonacci-sequence"
 path = "src/bin/2-lists-and-strings/14-fibonacci-seq.rs"
 
+[[bin]]
+name = "return-list-of-digits"
+path = "src/bin/2-lists-and-strings/15-return-list-of-digits.rs"
+
 
 
 [dependencies]
