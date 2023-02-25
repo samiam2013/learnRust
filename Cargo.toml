@@ -49,17 +49,6 @@ path = "src/bin/1-elementary/10-next-twenty-ly.rs"
 name = "alternating-series"
 path = "src/bin/1-elementary/11-alternating-series.rs"
 
-[[bin]]
-name = "nine-digit-equations"
-path = "src/bin/3-intermediate/1-nine-digit-equations.rs"
-
-[[bin]]
-name = "compute-leaps"
-path = "src/bin/3-intermediate/2-compute-leaps.rs"
-
-[[bin]]
-name = "graphs-structure"
-path = "src/bin/3-intermediate/3-graphs-structure.rs"
 
 [[bin]]
 name = "largest-element"
@@ -116,6 +105,24 @@ path = "src/bin/2-lists-and-strings/14-fibonacci-seq.rs"
 [[bin]]
 name = "return-list-of-digits"
 path = "src/bin/2-lists-and-strings/15-return-list-of-digits.rs"
+
+
+[[bin]]
+name = "nine-digit-equations"
+path = "src/bin/3-intermediate/1-nine-digit-equations.rs"
+
+[[bin]]
+name = "compute-leaps"
+path = "src/bin/3-intermediate/2-compute-leaps.rs"
+
+[[bin]]
+name = "graphs-structure"
+path = "src/bin/3-intermediate/3-graphs-structure.rs"
+
+[[bin]]
+name = "morse-code"
+path = "src/bin/3-intermediate/8-morse-code.rs"
+
 
 
 
