@@ -3,6 +3,10 @@
 
 fn main() {
     let mut num = 42069;
+	println!("result: {:?}", itol(num));
+}
+
+fn itol(num: i64) -> Vec::<i64> {
 	let mut list = Vec::<i64>::new(); 
 	let mut i = 1;
 	let mut scale = i * 10;
@@ -15,6 +19,5 @@ fn main() {
 		i += 1;
 		scale *= 10;
     }
-	list.reverse();
-	print!("{:?}", list)
+	return list.reverse();
 }
