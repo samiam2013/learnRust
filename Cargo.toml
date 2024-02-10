@@ -94,9 +94,9 @@ path = "src/bin/2-lists-and-strings/11-coallate-lists.rs"
 name = "merge-sorted"
 path = "src/bin/2-lists-and-strings/12-merge-sorted.rs"
 
-[[bin]]
-name = "rotate-list"
-path = "src/bin/2-lists-and-strings/13-rotate-list.rs"
+# [[bin]]
+# name = "rotate-list"
+# path = "src/bin/2-lists-and-strings/13-rotate-list.rs"
 
 [[bin]]
 name = "fibonacci-sequence"
@@ -106,9 +106,9 @@ path = "src/bin/2-lists-and-strings/14-fibonacci-seq.rs"
 name = "return-list-of-digits"
 path = "src/bin/2-lists-and-strings/15-return-list-of-digits.rs"
 
-[[bin]]
-name = "list-digit-representation"
-path = "src/bin/2-lists-and-strings/16-list-digit-representation.rs"
+# [[bin]]
+# name = "list-digit-representation"
+# path = "src/bin/2-lists-and-strings/16-list-digit-representation.rs"
 
 [[bin]]
 name = "nine-digit-equations"

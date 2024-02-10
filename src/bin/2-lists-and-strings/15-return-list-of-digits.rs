@@ -2,14 +2,15 @@
 //  So for 2342 it should return [2,3,4,2].
 
 fn main() {
-    let mut num = 42069;
+    let num = 42069;
 	println!("result: {:?}", itol(num));
 }
 
-fn itol(num: i64) -> Vec::<i64> {
+fn itol(num_in: i64) -> Vec::<i64> {
 	let mut list = Vec::<i64>::new(); 
 	let mut i = 1;
 	let mut scale = i * 10;
+	let mut num = num_in;
 	loop {
 		if num/(scale / 10) < 1  {
 			break
@@ -19,5 +20,6 @@ fn itol(num: i64) -> Vec::<i64> {
 		i += 1;
 		scale *= 10;
     }
-	return list.reverse();
+	list.reverse();
+	return list;
 }
